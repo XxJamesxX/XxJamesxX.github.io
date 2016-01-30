@@ -1,0 +1,379 @@
+/* line 5, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 21, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/susy-2.2.6/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 6, ../sass/screen.scss */
+body {
+  background-color: #333;
+}
+
+/* line 10, ../sass/screen.scss */
+p {
+  font-family: "Myriad Web Pro";
+  line-height: 1.4em;
+}
+
+/* line 15, ../sass/screen.scss */
+h1 {
+  font-family: "Myriad Web Pro";
+  font-size: 20px;
+}
+
+/* line 20, ../sass/screen.scss */
+.image {
+  width: 100%;
+}
+
+/* line 24, ../sass/screen.scss */
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+/* line 12, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/susy-2.2.6/sass/susy/output/support/_clearfix.scss */
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+@media (min-width: 1300px) {
+  /* line 30, ../sass/screen.scss */
+  .container {
+    width: 1300px;
+  }
+}
+/* line 35, ../sass/screen.scss */
+.header {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #000;
+  height: 50px;
+  margin-bottom: 10px;
+}
+/* line 41, ../sass/screen.scss */
+.header h1 {
+  color: #fff;
+  float: left;
+  font-family: "Myriad Web Pro";
+  font-size: 30px;
+  margin-left: 15px;
+  margin-top: 9px;
+}
+/* line 50, ../sass/screen.scss */
+.header nav {
+  float: right;
+  margin-right: 5px;
+  margin-top: 16px;
+}
+/* line 56, ../sass/screen.scss */
+.header .nav-ul {
+  list-style-type: none;
+}
+/* line 60, ../sass/screen.scss */
+.header .nav-li {
+  float: left;
+}
+/* line 63, ../sass/screen.scss */
+.header .nav-li a {
+  color: #fff;
+  font-family: "Myriad Web Pro";
+  padding: 10px;
+  text-decoration: none;
+}
+
+/* line 73, ../sass/screen.scss */
+.main {
+  width: 65%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+}
+/* line 75, ../sass/screen.scss */
+.main .col1,
+.main .col2,
+.main .col3 {
+  word-wrap: break-word;
+}
+/* line 81, ../sass/screen.scss */
+.main .col1 {
+  width: 32.43243%;
+  float: left;
+  margin-right: 1.35135%;
+}
+/* line 85, ../sass/screen.scss */
+.main .col2 {
+  width: 32.43243%;
+  float: left;
+  margin-right: 1.35135%;
+}
+/* line 89, ../sass/screen.scss */
+.main .col3 {
+  width: 32.43243%;
+  float: right;
+  margin-right: 0;
+}
+
+/* line 94, ../sass/screen.scss */
+.sidebar {
+  width: 31.66667%;
+  float: left;
+  margin-left: 0.83333%;
+  margin-right: 0.83333%;
+}
+
+@media (min-width: 1076px) {
+  /* line 99, ../sass/screen.scss */
+  .main {
+    width: 73.33333%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%;
+  }
+
+  /* line 103, ../sass/screen.scss */
+  .sidebar {
+    width: 23.33333%;
+    float: left;
+    margin-left: 0.83333%;
+    margin-right: 0.83333%;
+  }
+}
+/* line 109, ../sass/screen.scss */
+.button-wrapper {
+  border-bottom: 1px solid #fff;
+}
+/* line 113, ../sass/screen.scss */
+.button-wrapper .button1 {
+  width: 20%;
+  float: left;
+  border-right: 1px solid #fff;
+  border-top: 1px solid #fff;
+}
+/* line 120, ../sass/screen.scss */
+.button-wrapper .button2,
+.button-wrapper .button3,
+.button-wrapper .button4 {
+  width: 20%;
+  float: left;
+  border-right: 1px solid #fff;
+  border-top: 1px solid #fff;
+}
+/* line 129, ../sass/screen.scss */
+.button-wrapper .button5 {
+  width: 20%;
+  float: left;
+  border-bottom: 1px solid #fff;
+  border-top: 1px solid #fff;
+}
+
+/* line 137, ../sass/screen.scss */
+.button {
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -moz-transition-duration: 300ms;
+  -o-transition-duration: 300ms;
+  -webkit-transition-duration: 300ms;
+  transition-duration: 300ms;
+  background-color: #000;
+}
+
+/* line 143, ../sass/screen.scss */
+.button:hover {
+  background-color: #333;
+  cursor: pointer;
+}
+
+/* line 148, ../sass/screen.scss */
+.button-txt {
+  color: #fff;
+  font-family: "Myriad Web Pro";
+  font-size: 1.8vw;
+  padding: 5%;
+}
+
+/* line 155, ../sass/screen.scss */
+.button-active {
+  background-color: #666;
+  pointer-events: none;
+}
+
+/* line 160, ../sass/screen.scss */
+.slide-wrapper {
+  clear: both;
+  overflow: hidden;
+  position: relative;
+}
+
+/* line 166, ../sass/screen.scss */
+.bg-img {
+  visibility: hidden;
+  width: 100%;
+}
+
+/* line 171, ../sass/screen.scss */
+.slide {
+  position: absolute;
+  top: -100%;
+  z-index: 1;
+}
+
+/* line 177, ../sass/screen.scss */
+.active {
+  top: 0;
+  z-index: 2;
+}
+
+/* line 182, ../sass/screen.scss */
+.txt {
+  display: none;
+  margin-top: 20px;
+}
+
+/* line 187, ../sass/screen.scss */
+.txt-active {
+  display: block;
+}
+
+/* line 193, ../sass/screen.scss */
+.gallery img {
+  width: 44.44444%;
+  float: left;
+}
+/* line 66, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/susy-2.2.6/sass/susy/language/susy/_gallery.scss */
+.gallery img:nth-child(2n + 1) {
+  margin-left: 0;
+  margin-right: -100%;
+  clear: both;
+  margin-left: 0;
+}
+/* line 66, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/susy-2.2.6/sass/susy/language/susy/_gallery.scss */
+.gallery img:nth-child(2n + 2) {
+  margin-left: 55.55556%;
+  margin-right: -100%;
+  clear: none;
+}
+@media (min-width: 726px) {
+  /* line 193, ../sass/screen.scss */
+  .gallery img {
+    width: 21.05263%;
+    float: left;
+  }
+  /* line 66, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/susy-2.2.6/sass/susy/language/susy/_gallery.scss */
+  .gallery img:nth-child(4n + 1) {
+    margin-left: 0;
+    margin-right: -100%;
+    clear: both;
+    margin-left: 0;
+  }
+  /* line 66, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/susy-2.2.6/sass/susy/language/susy/_gallery.scss */
+  .gallery img:nth-child(4n + 2) {
+    margin-left: 26.31579%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/susy-2.2.6/sass/susy/language/susy/_gallery.scss */
+  .gallery img:nth-child(4n + 3) {
+    margin-left: 52.63158%;
+    margin-right: -100%;
+    clear: none;
+  }
+  /* line 66, ../../../../../../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/susy-2.2.6/sass/susy/language/susy/_gallery.scss */
+  .gallery img:nth-child(4n + 4) {
+    margin-left: 78.94737%;
+    margin-right: -100%;
+    clear: none;
+  }
+}
+
+/* line 201, ../sass/screen.scss */
+.footer {
+  width: 100%;
+  float: left;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #000;
+  height: 50px;
+  margin-top: 10px;
+}
+/* line 207, ../sass/screen.scss */
+.footer p {
+  color: #fff;
+  font-family: "Myriad Web Pro";
+  font-size: 20px;
+  margin-left: 15px;
+  margin-top: 13px;
+}
